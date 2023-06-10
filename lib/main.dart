@@ -170,22 +170,22 @@ class _HomeScreenState extends State<HomeScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  IconButton(
+                  FloatingActionButton(
                     onPressed: () {
                       pickImage(ImageSource.gallery, pickedImage);
                     },
-                    icon: Icon(
+                    child: Icon(
                       Icons.image,
                       size: 40,
-                      color: Colors.blue,
+                     
                     ),
                   ),
-                  IconButton(
+                  FloatingActionButton(
                     onPressed: () {
                       pickImage(ImageSource.camera, pickedImage);
                     },
-                    icon: Icon(Icons.camera_rounded,
-                        size: 40, color: Colors.blue),
+                    child: Icon(Icons.camera_rounded,
+                        size: 40, ),
                   ),
                 ],
               ),
