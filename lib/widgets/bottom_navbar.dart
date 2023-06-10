@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:image_to_text_converter/main.dart';
 
+import '../screens/home_screen.dart';
 import '../screens/scanned_screen.dart';
 import '../screens/settings_screen.dart';
 
@@ -37,7 +37,7 @@ class MyBottomNavBarState extends State<MyBottomNavBar> {
 
   static  List<Widget> widgetOptions = <Widget>[
     // CustomNavigationDrawer(),
-    HomeScreen(),
+     HomeScreen(),
      ScannedScreen(),
      SettingScreen(),
 
