@@ -5,6 +5,18 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+Home Screen
+![images](screenshot/1.jpg)
+Home screen after scan image
+![images2](screenshot/2.jpg)
+Scanned Text 
+![images3](screenshot/3.jpg)
+Settings
+![images4](screenshot/4.jpg)
+Drawer
+![images5](screenshot/5.jpg)
+DarkTheme Home Screen
+![images6](screenshot/6.jpg)
 
 A few resources to get you started if this is your first Flutter project:
 
